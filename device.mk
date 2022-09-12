@@ -124,6 +124,10 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    
+# Prebuilts
+PRODUCT_PACKAGES += \
+    newpipe
 
 # Recovery
 PRODUCT_PACKAGES += \
