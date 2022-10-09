@@ -25,3 +25,15 @@ android_app_import {
     presigned: true,
 
 }
+
+// equalizer
+//android_app_import {
+//    name: "equalizer",
+//
+//    dex_preopt: {
+//        enabled: false,
+//    },
+//    apk: "equalizer.apk",
+//    presigned: true,
+//
+//}
